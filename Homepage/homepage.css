@@ -11,6 +11,19 @@ nav {
     /* border: 1px solid red; */
 }
 
+.logo{
+    cursor: pointer;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #fff;
+}
+
 .nav-containner {
     padding: 2rem;
     display: flex;
@@ -20,14 +33,24 @@ nav {
 ul {
     display: flex;
     list-style: none;
-    font-size: 24px;
 }
 
 ul li {
     cursor: pointer;
     margin-left: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight:800;
+}
 
+.nav-containner ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-containner ul li a:hover {
+    color: #fff;
 }
 
 .banner {
@@ -69,13 +92,24 @@ ul li {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.btn-todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 0.5rem;
     margin: 2rem 0;
     background-color:aqua;
     height: 80px;
-    /* border: 1px solid red; */
+    width: 400px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.btn-todo:hover {
+    opacity: 80%;
 }
 
 .make-list-btn a {
@@ -83,10 +117,18 @@ ul li {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+    height: 80px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+    /* text-align: center; */
 }
 
-.make-list-btn:hover {
-    opacity: 75%;
+.make-list-btn a:hover {
+    color: black;
 }
 
 .pros {
